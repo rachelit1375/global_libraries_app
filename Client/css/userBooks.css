@@ -1,0 +1,112 @@
+
+
+.comments-controls {
+  margin-bottom: 10px;
+}
+.book-info .days-left-message {
+  color: rgb(125, 165, 188);
+  font-weight: bold;
+}
+
+.book-info .overdue-message {
+  color: #ff0000;
+  font-weight: bold;
+}
+.toggle-comments,
+.toggle-add-comment {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  color:rgb(125,165,188);
+}
+
+.comment-icon,
+.add-comment-icon {
+  margin-right: 5px;
+}
+
+.comment-form {
+  margin-top: 10px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.comment-form button {
+  background-color:rgb(125,165,188);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.comment-form button:hover {
+  background-color: #44788b;
+}
+
+.return-books-button {
+    background-color: #5491a7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 150px
+  }
+
+.return-books-button:hover {
+  background-color: #44788b;
+}
+
+.error-message {
+  color: #dc3545;
+}
+.no-books-message {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.confirmation-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation-popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.confirmation-popup-content button {
+  margin: 5px;
+}
+
